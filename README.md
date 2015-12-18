@@ -24,7 +24,7 @@ and you can also get this kind of sprite picture from that site.
 <script type="text/javascript" src="./SpritePlayer.js"></script>
 ```
 2. create your own player using ```new```
-```
+``` js
 var newPlayer = new SpritePlayer({
     width: 80,
     height: 87,
@@ -45,6 +45,11 @@ var newPlayer = new SpritePlayer({
 4. there are two methods provide
   - run - begin playing
   - stop - stop playing, next ```run()``` will from the begining
+  - 
+ ```js
+ document.getElementById('startBtn').onclick = newPlayer.run.bind(newPlayer);
+ document.getElementById('stopBtn').onclick = newPlayer.stop.bind(newPlayer);
+ ```
 
 5. see file player.html for more
 
