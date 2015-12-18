@@ -15,7 +15,7 @@ and you can also get this kind of sprite picture from that site.
 ---
 
 ## Play source limit
-- every frame must be same width
+- every frame must be same width, otherwise your animate is movine all the times.
 - frames layout must be inline
 
 # How to use?
