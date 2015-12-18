@@ -24,6 +24,16 @@ and you can also get this kind of sprite picture from that site.
 <script type="text/javascript" src="./SpritePlayer.js"></script>
 ```
 2. create your own player using ```new```
+```
+var newPlayer = new SpritePlayer({
+    width: 80,
+    height: 87,
+    backgroundImage: 'images/boxer.png',
+    speed: 100,
+    forward: true,
+    frameNum: 12
+});
+```
 3. you can make some options when you ```new```
     - width   - the width of one frame and stage
     - height  - the stage height, often the picture height
