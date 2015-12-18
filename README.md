@@ -1,6 +1,8 @@
 # SpritePlayer
 A tiny js component for playing sprite animate pictures!
 
+See the demo: http://fishenal.github.io/spritePlayer/player.html
+
 # What it is?
 
 A html player for playing pictures like this
