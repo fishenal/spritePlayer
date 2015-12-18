@@ -45,7 +45,7 @@ var newPlayer = new SpritePlayer({
 4. there are two methods provide
   - run - begin playing
   - stop - stop playing, next ```run()``` will from the begining
-  - 
+
  ```js
  document.getElementById('startBtn').onclick = newPlayer.run.bind(newPlayer);
  document.getElementById('stopBtn').onclick = newPlayer.stop.bind(newPlayer);
